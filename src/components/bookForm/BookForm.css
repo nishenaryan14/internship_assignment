@@ -1,0 +1,10 @@
+.bookingForm {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  outline: 0;
+  height: 32px;
+  width: 270px;
+  margin: 10px;
+}

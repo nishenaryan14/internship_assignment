@@ -1,0 +1,54 @@
+.plot-card-parent {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plot-card {
+  margin-top: 1rem;
+  position: relative;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 1rem;
+  max-height: max-content;
+  max-width: 90vw;
+  /* overflow: hidden; */
+}
+.plot-card-upper {
+  display: flex;
+  gap: 35px;
+  flex-flow: nowrap;
+}
+.plot-img {
+  height: 300px;
+  width: 370px;
+}
+.plot-img img {
+  object-position: top;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.plot-details-major {
+  max-height: 350px;
+  padding: 2rem;
+  max-width: 50vw;
+  overflow-y: scroll;
+}
+.plot-details-more {
+  padding: 2.7rem 1.7rem;
+}
+.synopsis {
+  font-weight: 300;
+  text-transform: lowercase;
+}
+.plot-card .btn-bookTicket {
+  position: absolute;
+  top: 20px;
+  right: 39px;
+}
+
+.span {
+  margin: 5px;
+}
